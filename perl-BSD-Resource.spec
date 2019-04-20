@@ -4,11 +4,11 @@
 #
 Name     : perl-BSD-Resource
 Version  : 1.2911
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/J/JH/JHI/BSD-Resource-1.2911.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JH/JHI/BSD-Resource-1.2911.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libb/libbsd-resource-perl/libbsd-resource-perl_1.2911-1.debian.tar.xz
-Summary  : unknown
+Summary  : getrusage(), s/getrlimit(), s/getpriority()
 Group    : Development/Tools
 License  : Artistic-2.0 GPL-2.0 MIT
 Requires: perl-BSD-Resource-lib = %{version}-%{release}
@@ -24,6 +24,7 @@ Summary: dev components for the perl-BSD-Resource package.
 Group: Development
 Requires: perl-BSD-Resource-lib = %{version}-%{release}
 Provides: perl-BSD-Resource-devel = %{version}-%{release}
+Requires: perl-BSD-Resource = %{version}-%{release}
 
 %description dev
 dev components for the perl-BSD-Resource package.
@@ -51,7 +52,7 @@ license components for the perl-BSD-Resource package.
 cd ..
 %setup -q -T -D -n BSD-Resource-1.2911 -b 1
 mkdir -p deblicense/
-mv %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/BSD-Resource-1.2911/deblicense/
+cp -r %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/BSD-Resource-1.2911/deblicense/
 
 %build
 export http_proxy=http://127.0.0.1:9/
