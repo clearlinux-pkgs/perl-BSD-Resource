@@ -89,37 +89,37 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/BSD/Resource.pm
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/_find_prio.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/_find_rlimit.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/_g.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/autosplit.ix
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/get_prios.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/get_rlimits.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/getpriority.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/getrlimit.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/getrusage.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/hard.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/idrss.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/inblock.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/isrss.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/ixrss.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/majflt.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/maxrss.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/minflt.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/msgrcv.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/msgsnd.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/nivcsw.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/nsignals.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/nswap.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/nvcsw.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/oublock.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/setpriority.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/setrlimit.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/soft.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/stime.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/times.al
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/utime.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/BSD/Resource.pm
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/_find_prio.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/_find_rlimit.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/_g.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/autosplit.ix
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/get_prios.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/get_rlimits.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/getpriority.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/getrlimit.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/getrusage.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/hard.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/idrss.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/inblock.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/isrss.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/ixrss.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/majflt.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/maxrss.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/minflt.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/msgrcv.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/msgsnd.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/nivcsw.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/nsignals.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/nswap.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/nvcsw.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/oublock.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/setpriority.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/setrlimit.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/soft.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/stime.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/times.al
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/utime.al
 
 %files dev
 %defattr(-,root,root,-)
@@ -127,7 +127,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/BSD/Resource/Resource.so
+/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/BSD/Resource/Resource.so
 
 %files license
 %defattr(0644,root,root,0755)
