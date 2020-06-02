@@ -4,7 +4,7 @@
 #
 Name     : perl-BSD-Resource
 Version  : 1.2911
-Release  : 14
+Release  : 15
 URL      : https://cpan.metacpan.org/authors/id/J/JH/JHI/BSD-Resource-1.2911.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JH/JHI/BSD-Resource-1.2911.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libb/libbsd-resource-perl/libbsd-resource-perl_1.2911-1.debian.tar.xz
@@ -101,35 +101,35 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/BSD/Resource.pm
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/Resource.so
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/_find_prio.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/_find_rlimit.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/_g.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/autosplit.ix
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/get_prios.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/get_rlimits.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/getpriority.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/getrlimit.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/getrusage.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/hard.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/idrss.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/inblock.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/isrss.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/ixrss.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/majflt.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/maxrss.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/minflt.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/msgrcv.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/msgsnd.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/nivcsw.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/nsignals.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/nswap.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/nvcsw.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/oublock.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/setpriority.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/setrlimit.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/soft.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/stime.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/times.al
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/BSD/Resource/utime.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/BSD/Resource.pm
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/Resource.so
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/_find_prio.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/_find_rlimit.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/_g.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/autosplit.ix
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/get_prios.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/get_rlimits.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/getpriority.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/getrlimit.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/getrusage.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/hard.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/idrss.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/inblock.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/isrss.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/ixrss.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/majflt.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/maxrss.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/minflt.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/msgrcv.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/msgsnd.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/nivcsw.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/nsignals.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/nswap.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/nvcsw.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/oublock.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/setpriority.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/setrlimit.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/soft.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/stime.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/times.al
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/BSD/Resource/utime.al
