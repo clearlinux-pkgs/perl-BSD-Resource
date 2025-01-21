@@ -4,7 +4,7 @@
 #
 Name     : perl-BSD-Resource
 Version  : 1.2911
-Release  : 27
+Release  : 28
 URL      : https://cpan.metacpan.org/authors/id/J/JH/JHI/BSD-Resource-1.2911.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JH/JHI/BSD-Resource-1.2911.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libb/libbsd-resource-perl/libbsd-resource-perl_1.2911-1.debian.tar.xz
